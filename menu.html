@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cozy Cafe</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <style>
+      @media screen and (max-width: 767px) {
+        body {
+          background-color:white;
+        }
+      }
+      @media screen and (min-width: 767px) and (max-width: 1023px) {
+        body {
+          background-color: white;
+        }
+      }
+    </style>
+  </head>
+  <!--NAVBAR-->
+  <body style="background-color: white;">
+    <audio src="suara/gitarren-loop-136bpm-stereo-8969.mp3" autoplay></audio>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Cozy Cafe</a>
+        <button
+          type="button"
+          class="btn btn-outline-secondary"
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-house"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"
+                  />
+                </svg>
+                Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="menu.html"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-menu-button-wide"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M0 1.5A1.5 1.5 0 0 1 1.5 0h13A1.5 1.5 0 0 1 16 1.5v2A1.5 1.5 0 0 1 14.5 5h-13A1.5 1.5 0 0 1 0 3.5zM1.5 1a.5.5 0 0 0-.5.5v2a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 0-.5-.5z"
+                  />
+                  <path
+                    d="M2 2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5m10.823.323-.396-.396A.25.25 0 0 1 12.604 2h.792a.25.25 0 0 1 .177.427l-.396.396a.25.25 0 0 1-.354 0M0 8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm1 3v2a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2zm14-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2zM2 8.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0 4a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5"
+                  />
+                </svg>
+                Menu</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-person-lines-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5m.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1z"
+                  />
+                </svg>
+                Contact</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+
+    <div align="center">
+      <img
+        src="gambar/Gemini_Generated_Image_4dk2zu4dk2zu4dk2.png"
+        alt="Gambar"
+        class="img-fluid"
+      />
+    </div>
+    <hr />
+    <h1 align="center" style="font-family: lorem"><b>MENU</b></h1>
+    <hr />
+    <!--CONTENT-->
+
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-fork-knife" viewBox="0 0 16 16">
+  <path d="M13 .5c0-.276-.226-.506-.498-.465-1.703.257-2.94 2.012-3 8.462a.5.5 0 0 0 .498.5c.56.01 1 .13 1 1.003v5.5a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5zM4.25 0a.25.25 0 0 1 .25.25v5.122a.128.128 0 0 0 .256.006l.233-5.14A.25.25 0 0 1 5.24 0h.522a.25.25 0 0 1 .25.238l.233 5.14a.128.128 0 0 0 .256-.006V.25A.25.25 0 0 1 6.75 0h.29a.5.5 0 0 1 .498.458l.423 5.07a1.69 1.69 0 0 1-1.059 1.711l-.053.022a.92.92 0 0 0-.58.884L6.47 15a.971.971 0 1 1-1.942 0l.202-6.855a.92.92 0 0 0-.58-.884l-.053-.022a1.69 1.69 0 0 1-1.059-1.712L3.462.458A.5.5 0 0 1 3.96 0z"/>
+</svg>   Breakfast
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+      <div class="accordion-body">
+        <ul class="list-group list-group-flush">
+  <li class="list-group-item"><input class="form-check-input" type="checkbox"> Big Breakfast set                       RM18.90</li>
+  <li class="list-group-item"><input class="form-check-input" type="checkbox"> Croissant Sandwich (Egg & Cheese)       RM12.50</li>
+  <li class="list-group-item"><input class="form-check-input" type="checkbox"> Pancake Stack With Maple Syrup          RM14.90</li>
+  <li class="list-group-item"><input class="form-check-input" type="checkbox"> Nasi Lemak Cozy                         RM10.90</li>
+  <li class="list-group-item"><input class="form-check-input" type="checkbox"> Avocado Toast With Poached Egg          RM15.90</li>
+  <li class="list-group-item"><input class="form-check-input" type="checkbox"> Mushroom & Cheese Omelette              RM13.90</li>
+</ul>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cookie" viewBox="0 0 16 16">
+  <path d="M6 7.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m4.5.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3m-.5 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/>
+  <path d="M8 0a7.96 7.96 0 0 0-4.075 1.114q-.245.102-.437.28A8 8 0 1 0 8 0m3.25 14.201a1.5 1.5 0 0 0-2.13.71A7 7 0 0 1 8 15a6.97 6.97 0 0 1-3.845-1.15 1.5 1.5 0 1 0-2.005-2.005A6.97 6.97 0 0 1 1 8c0-1.953.8-3.719 2.09-4.989a1.5 1.5 0 1 0 2.469-1.574A7 7 0 0 1 8 1c1.42 0 2.742.423 3.845 1.15a1.5 1.5 0 1 0 2.005 2.005A6.97 6.97 0 0 1 15 8c0 .596-.074 1.174-.214 1.727a1.5 1.5 0 1 0-1.025 2.25 7 7 0 0 1-2.51 2.224Z"/>
+</svg>  Dessert
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+      <div class="accordion-body">
+        <ul class="list-group list-group-flush">
+  <li class="list-group-item"><input class="form-check-input" type="checkbox"> Classic Tiramisu                        RM12.90</li>
+  <li class="list-group-item"><input class="form-check-input" type="checkbox"> Chocolate Lava Cake With Ice Cream      RM12.50</li>
+  <li class="list-group-item"><input class="form-check-input" type="checkbox"> New York Cheesecake                     RM14.90</li>
+  <li class="list-group-item"><input class="form-check-input" type="checkbox"> Waffle With Berries & Cream             RM10.90</li>
+  <li class="list-group-item"><input class="form-check-input" type="checkbox"> Brownies Fudge                          RM9.90</li>
+  <li class="list-group-item"><input class="form-check-input" type="checkbox"> Matcha Panna Cotta                      RM11.90</li>
+</ul>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cup-straw" viewBox="0 0 16 16">
+  <path d="M13.902.334a.5.5 0 0 1-.28.65l-2.254.902-.4 1.927c.376.095.715.215.972.367.228.135.56.396.56.82q0 .069-.011.132l-.962 9.068a1.28 1.28 0 0 1-.524.93c-.488.34-1.494.87-3.01.87s-2.522-.53-3.01-.87a1.28 1.28 0 0 1-.524-.93L3.51 5.132A1 1 0 0 1 3.5 5c0-.424.332-.685.56-.82.262-.154.607-.276.99-.372C5.824 3.614 6.867 3.5 8 3.5c.712 0 1.389.045 1.985.127l.464-2.215a.5.5 0 0 1 .303-.356l2.5-1a.5.5 0 0 1 .65.278M9.768 4.607A14 14 0 0 0 8 4.5c-1.076 0-2.033.11-2.707.278A3.3 3.3 0 0 0 4.645 5c.146.073.362.15.648.222C5.967 5.39 6.924 5.5 8 5.5c.571 0 1.109-.03 1.588-.085zm.292 1.756C9.445 6.45 8.742 6.5 8 6.5c-1.133 0-2.176-.114-2.95-.308a6 6 0 0 1-.435-.127l.838 8.03c.013.121.06.186.102.215.357.249 1.168.69 2.438.69s2.081-.441 2.438-.69c.042-.029.09-.094.102-.215l.852-8.03a6 6 0 0 1-.435.127 9 9 0 0 1-.89.17zM4.467 4.884s.003.002.005.006zm7.066 0-.005.006zM11.354 5a3 3 0 0 0-.604-.21l-.099.445.055-.013c.286-.072.502-.149.648-.222"/>
+</svg>  Drink
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+      <div class="accordion-body">
+        <ul class="list-group list-group-flush">
+  <li input="checkbox" class="list-group-item"><input class="form-check-input" type="checkbox">  Americano                               RM7.90</li>
+  <li class="list-group-item"><input class="form-check-input" type="checkbox"> Cafe Latte                              RM9.90</li>
+  <li class="list-group-item"><input class="form-check-input" type="checkbox"> Caramel Macchiato                       RM11.90</li>
+  <li class="list-group-item"><input class="form-check-input" type="checkbox"> Iced Chocolate                          RM10.50</li>
+  <li class="list-group-item"><input class="form-check-input" type="checkbox"> Matcha Latte                            RM12.00</li>
+  <li class="list-group-item"><input class="form-check-input" type="checkbox"> Fresh Orange Juice                      RM8.90</li>
+</ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!--PAGE NAVIGATOR-->
+    <br />
+    <div
+      style="
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        background-color: rgb(228, 228, 225);
+        color: aliceblue;
+      "
+    >
+      <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item">
+            <a
+              type="button"
+              class="btn btn-outline-secondary"
+              style="color: black"
+              class="page-link"
+              href="index.html"
+              aria-label="Previous"
+            >
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li class="page-item">
+            <a
+              type="button"
+              class="btn btn-outline-secondary"
+              style="color: black"
+              class="page-link"
+              href="index.html"
+              >1</a
+            >
+          </li>
+          <li class="page-item">
+            <a
+              type="button"
+              class="btn btn-outline-secondary"
+              style="color: black"
+              class="page-link"
+              href="menu.html"
+              >2</a
+            >
+          </li>
+          <li class="page-item">
+            <a
+              type="button"
+              class="btn btn-outline-secondary"
+              style="color: black"
+              class="page-link"
+              href="contact.html"
+              >3</a
+            >
+          </li>
+          <li class="page-item">
+            <a
+              type="button"
+              class="btn btn-outline-secondary"
+              style="color: rgb(0, 0, 0)"
+              class="page-link"
+              href="contact.html"
+              aria-label="Next"
+            >
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <p
+      style="
+        text-align: center;
+        size: 10px;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+      "
+    >
+      Copyright
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="16"
+        height="16"
+        fill="currentColor"
+        class="bi bi-c-circle"
+        viewBox="0 0 16 16"
+      >
+        <path
+          d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512"
+        />
+      </svg>
+      2025 GANGTER MALAYA SDN.BHD
+    </p>
+    <input class="form-check-input" type="checkbox">
+  </body>
+</html>

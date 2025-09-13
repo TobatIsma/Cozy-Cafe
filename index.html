@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cozy Cafe</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <style>
+      @media screen and (max-width:767px){
+        body{background-color: red;}
+      }
+      @media screen and (min-width:767px)and (max-width:1023px)
+      {body{background-color: bisque;}}
+    </style>
+  </head>
+  <!--NAVBAR-->
+  <body>
+    <audio src="suara/gitarren-loop-136bpm-stereo-8969.mp3" autoplay></audio>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Cozy Cafe</a>
+        <button
+          type="button"
+          class="btn btn-outline-secondary"
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-house"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"
+                  />
+                </svg>
+                Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="menu.html"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-menu-button-wide"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M0 1.5A1.5 1.5 0 0 1 1.5 0h13A1.5 1.5 0 0 1 16 1.5v2A1.5 1.5 0 0 1 14.5 5h-13A1.5 1.5 0 0 1 0 3.5zM1.5 1a.5.5 0 0 0-.5.5v2a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 0-.5-.5z"
+                  />
+                  <path
+                    d="M2 2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5m10.823.323-.396-.396A.25.25 0 0 1 12.604 2h.792a.25.25 0 0 1 .177.427l-.396.396a.25.25 0 0 1-.354 0M0 8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm1 3v2a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2zm14-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v2zM2 8.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0 4a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5"
+                  />
+                </svg>
+                Menu</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-person-lines-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5m.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1z"
+                  />
+                </svg>
+                Contact</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+
+    <div align="center">
+      <img
+        src="gambar/Gemini_Generated_Image_4dk2zu4dk2zu4dk2.png"
+        alt="Gambar"
+        class="img-fluid"
+      />
+    </div>
+    <hr />
+    <h1 align="center" style="font-family: lorem"><b>The Daily Grind</b></h1>
+    <hr />
+    <!--CONTENT-->
+    <div
+      class="container"
+      style="display: flex; gap: 20px; flex-wrap: wrap; justify-content: center"
+    >
+      <div class="card" style="width: 18rem">
+        <img src="gambar/dalam.png" class="card-img-top" alt="..." />
+        <div
+          style="background-color: rgb(25, 25, 25); color: aliceblue"
+          class="card-body"
+        >
+          <h5 class="card-title">✨ Cozy Cafe</h5>
+          <p class="card-text">
+            <br />Tempat Hangat, Rasa Tenang ✨ Cozy Cafe direka khas untuk
+            mereka yang mencari
+            <span style="font-weight: bold"
+              >suasana santai, damai dan penuh kehangatan</span
+            >. Dengan dekorasi ala klasik bercampur moden, setiap sudut kafe ini
+            membuatkan anda rasa seolah-olah berada di ruang tamu sendiri
+            <span style="font-weight: bold">selesa, tenang, dan mesra</span>.
+            <br />
+          </p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img src="gambar/kopi.png" class="card-img-top" alt="..." />
+        <div
+          style="background-color: rgb(25, 25, 25); color: aliceblue"
+          class="card-body"
+        >
+          <h5 class="card-title">☕ Kopi Signature <br /></h5>
+          <p class="card-text">
+            <br />Dibancuh segar daripada
+            <span style="font-weight: bold">biji kopi premium pilihan</span>,
+            setiap tegukan membawa aroma yang memikat dan rasa yang menghidupkan
+            hari anda.
+          </p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img src="gambar/roti.png" class="card-img-top" alt="..." />
+        <div
+          style="background-color: rgb(25, 25, 25); color: aliceblue"
+          class="card-body"
+        >
+          <h5 class="card-title">🥐 Pastri Homemade <br /></h5>
+          <p class="card-text">
+            <br />Dibakar setiap pagi,
+            <span style="font-weight: bold"
+              >rangup di luar, lembut di dalam</span
+            >, sesuai untuk dinikmati bersama kopi kegemaran anda.
+          </p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img src="gambar/suasana.png" class="card-img-top" alt="..." />
+        <div
+          style="background-color: rgb(25, 25, 25); color: aliceblue"
+          class="card-body"
+        >
+          <h5 class="card-title">🌿 Suasana Cozy <br /></h5>
+          <p class="card-text">
+            <br />Lampu hangat, muzik lembut, dan hiasan tumbuhan hijau
+            mewujudkan ruang yang sempurna untuk
+            <span style="font-weight: bold"
+              >membaca, bekerja, atau melepak</span
+            >
+            bersama rakan. <br />
+          </p>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img src="gambar/wifi.png" class="card-img-top" alt="..." />
+        <div
+          style="background-color: rgb(25, 25, 25); color: aliceblue"
+          class="card-body"
+        >
+          <h5 class="card-title">💻 Ruang Mesra Kerja <br /></h5>
+          <p class="card-text">
+            <br />Dilengkapi
+            <span style="font-weight: bold">WiFi laju dan soket elektrik</span>,
+            Cozy Cafe juga menjadi pilihan ideal untuk freelancer, pelajar, dan
+            sesi brainstorming santai. Di Cozy Cafe, setiap kunjungan bukan
+            sekadar minum kopi ia adalah pengalaman untuk menenangkan jiwa.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--PAGE NAVIGATOR-->
+    <br />
+    <div
+      style="
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        background-color: rgb(228, 228, 225);
+        color: aliceblue;
+      "
+    >
+      <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item">
+            <a
+              type="button"
+              class="btn btn-outline-secondary"
+              style="color: black"
+              class="page-link"
+              href="contact.html"
+              aria-label="Previous"
+            >
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li class="page-item">
+            <a
+              type="button"
+              class="btn btn-outline-secondary"
+              style="color: black"
+              class="page-link"
+              href="index.html"
+              >1</a
+            >
+          </li>
+          <li class="page-item">
+            <a
+              type="button"
+              class="btn btn-outline-secondary"
+              style="color: black"
+              class="page-link"
+              href="menu.html"
+              >2</a
+            >
+          </li>
+          <li class="page-item">
+            <a
+              type="button"
+              class="btn btn-outline-secondary"
+              style="color: black"
+              class="page-link"
+              href="contact.html"
+              >3</a
+            >
+          </li>
+          <li class="page-item">
+            <a
+              type="button"
+              class="btn btn-outline-secondary"
+              style="color: rgb(0, 0, 0)"
+              class="page-link"
+              href="menu.html"
+              aria-label="Next"
+            >
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <p
+      style="
+        text-align: center;
+        size: 10px;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+      "
+    >
+      Copyright
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="16"
+        height="16"
+        fill="currentColor"
+        class="bi bi-c-circle"
+        viewBox="0 0 16 16"
+      >
+        <path
+          d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512"
+        />
+      </svg>
+      2025 GANGTER MALAYA SDN.BHD
+    </p>
+  </body>
+</html>
